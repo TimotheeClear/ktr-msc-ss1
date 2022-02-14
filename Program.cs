@@ -7,21 +7,28 @@ namespace ktr_msc_ss1
         static void Main(string[] args)
         {
             //STEP 01
-/*            Character perso = new Character("Timothée");
-            Console.WriteLine(perso.Name);
-            Console.WriteLine(perso.Life);
-            Console.WriteLine(perso.Agility);
-            Console.WriteLine(perso.Strength);
-            Console.WriteLine(perso.Wit);
-            Console.WriteLine(perso.RpgClass);
-            perso.Attack("my weapon");*/
+            /*            Character perso = new Character("Timothée");
+                        Console.WriteLine(perso.Name);
+                        Console.WriteLine(perso.Life);
+                        Console.WriteLine(perso.Agility);
+                        Console.WriteLine(perso.Strength);
+                        Console.WriteLine(perso.Wit);
+                        Console.WriteLine(perso.RpgClass);
+                        perso.Attack("my weapon");*/
 
             //STEP 02
-            Character perso2 = new Mage("Merlin");
-            Character perso1 = new Warrior("Arthure");
+            /*            Character perso2 = new Mage("Merlin");
+                        Character perso1 = new Warrior("Arthure");
 
-            perso1.Attack("sword");
-            perso2.Attack("magic");
+                        perso1.Attack("sword");
+                        perso2.Attack("magic");*/
+
+            //STEP 03
+            Moveable perso = new Character("Timothée");
+            perso.moveLeft();
+            perso.moveRight();
+            perso.moveForward();
+            perso.moveBack();
         }
     }
 }

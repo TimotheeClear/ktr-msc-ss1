@@ -37,8 +37,8 @@ namespace ktr_msc_ss1
                         perso1.moveBack();
     */
             //STEP 05
-            Character perso = new Warrior("Merlin");
-            perso.Unsheathe();
+/*            Character perso = new Warrior("Merlin");
+            perso.Unsheathe();*/
         }
     }
 }

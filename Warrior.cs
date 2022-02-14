@@ -25,7 +25,10 @@ namespace ktr_msc_ss1
             {
                 base.Attack(weapon);
                 Console.WriteLine(Name + ": I'll crush you with my " + weapon + "!");
-            }
+            } /*else
+            {
+                WeaponException.noWeapon();
+            }*/
         }
 
         public override string RpgClass

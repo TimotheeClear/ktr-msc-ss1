@@ -4,7 +4,7 @@ using System.Text;
 
 namespace ktr_msc_ss1
 {
-    class Character : Moveable
+    abstract class Character : Moveable
     {
         private const string RPGCLASS = "Character";
 

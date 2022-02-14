@@ -24,11 +24,19 @@ namespace ktr_msc_ss1
                         perso2.Attack("magic");*/
 
             //STEP 03
-            Moveable perso = new Character("Timothée");
-            perso.moveLeft();
-            perso.moveRight();
-            perso.moveForward();
-            perso.moveBack();
+            Moveable perso2 = new Mage("Merlin");
+            Moveable perso1 = new Warrior("Arthure");
+
+            perso2.moveLeft();
+            perso2.moveRight();
+            perso2.moveForward();
+            perso2.moveBack();
+            perso1.moveLeft();
+            perso1.moveRight();
+            perso1.moveForward();
+            perso1.moveBack();
+
+
         }
     }
 }

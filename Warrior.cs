@@ -4,7 +4,7 @@ using System.Text;
 
 namespace ktr_msc_ss1
 {
-    class Warrior : Character
+    class Warrior : Character, MoveableAsAWarrior
     {
         private const string RPGCLASS = "Warrior";
         private List<string> weapons = new List<string> { "sword", "hammer" };

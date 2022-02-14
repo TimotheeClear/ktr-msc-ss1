@@ -23,6 +23,11 @@ namespace ktr_msc_ss1
             this.wit = wit;
         }
 
+        public void Unsheathe()
+        {
+            Console.WriteLine(Name + " unsheathes his weapon .");
+        }
+
         public virtual void Attack(string weapon)
         {
             Console.WriteLine(Name + ": Rrrrrrrrr ....");
